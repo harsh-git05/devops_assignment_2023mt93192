@@ -8,12 +8,9 @@ const Juser= {
 let accountstate;
 
 accountemail= 'shfhjsh@gmail.com'
-accountpassword = '234231'
-accountcity='rajasthan'
 
-console.log(accountID)
-console.table([accountemail,accountpassword,accountcity,accountstate])
-// accountID=2
-
-
-    
+let mydate = new Date()
+console.log(mydate) 
+console.log(mydate.toString())
+console.log(mydate.toDateString())
+console.log(mydate.toLocaleDateString)
